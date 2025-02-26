@@ -11,6 +11,11 @@ header {
     padding: 20px;
     text-align: center;
 }
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 10px;
+}
 nav ul {
     list-style: none;
     padding: 0;
