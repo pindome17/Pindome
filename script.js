@@ -20,4 +20,16 @@ document.addEventListener("DOMContentLoaded", function() {
                 logList.appendChild(li);
             });
         });
+
+    // Automatische Bilderanzeige aus dem GitHub Repository
+    const repoURL = "https://raw.githubusercontent.com/DEIN-GITHUB-NAME/pindome/main/";
+    const imageList = ["flipper1.jpg", "flipper2.jpg", "flipper3.jpg"]; // Diese Liste manuell pflegen
+    const gallery = document.getElementById("gallery");
+
+    imageList.forEach(img => {
+        let imageElement = document.createElement("img");
+        imageElement.src = repoURL + img;
+        imageElement.alt = "Flipperbild";
+        gallery.appendChild(imageElement);
+    });
 });

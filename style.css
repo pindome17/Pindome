@@ -30,6 +30,11 @@ h2 {
     border-bottom: 2px solid #ffcc00;
     padding-bottom: 5px;
 }
+.flipper-liste img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+}
 footer {
     text-align: center;
     padding: 10px;
