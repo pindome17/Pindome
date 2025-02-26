@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
     // Automatische Bilderanzeige aus dem GitHub Repository
-    const repoURL = "https://raw.githubusercontent.com/DEIN-GITHUB-NAME/pindome/main/";
+    const repoURL = "https://raw.githubusercontent.com/pindome17/pindome/main/";
     const imageList = ["images/flipper1.jpg", "images/flipper2.jpg", "images/flipper3.jpg"]; // Diese Liste manuell pflegen
     const gallery = document.getElementById("gallery");
 
