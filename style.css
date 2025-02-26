@@ -45,3 +45,13 @@ footer {
     padding: 10px;
     background: #000;
 }
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.custom-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 48px;
+    text-align: center;
+    color: #ffcc00;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+}
