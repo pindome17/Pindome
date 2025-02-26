@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Automatische Bilderanzeige aus dem GitHub Repository
     const repoURL = "https://raw.githubusercontent.com/DEIN-GITHUB-NAME/pindome/main/";
-    const imageList = ["flipper1.jpg", "flipper2.jpg", "flipper3.jpg"]; // Diese Liste manuell pflegen
+    const imageList = ["flipper1.JPG", "flipper2.jpg", "flipper3.jpg"]; // Diese Liste manuell pflegen
     const gallery = document.getElementById("gallery");
 
     imageList.forEach(img => {
